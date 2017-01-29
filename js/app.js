@@ -65,3 +65,12 @@ function isEmail(email){
         sweetAlert("Oops...", "e-mail inválido!", "error");
     }
   }
+
+  function acessarCrowdFunding() {
+      firebase.auth().signInAnonymously().then(function() {
+            firebase.database().ref('acessos/').push({
+                data: new Date().toLocaleDateString(),
+                hora: new Date().toLocaleTimeString()
+            })
+        });
+  }
