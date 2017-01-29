@@ -1,0 +1,16 @@
+diff a/public/js/application.js b/public/js/application.js	(rejected hunks)
+@@ -192,10 +192,11 @@
+ 
+ 
+ /******************** NAVBAR COLLAPSE ON CLICK ********************/
+-$('.navbar-nav').on('click', 'a', function(event) {
++
++//$('.navbar-nav').on('click', 'a', function(event) {
+    /* Act on the event */
+-   $('.navbar-collapse').collapse('hide');
+-});
++//   $('.navbar-collapse').collapse('hide');
++//});
+ 
+ 
+ /******************** SCREENSHOTS SWIPER ********************/
