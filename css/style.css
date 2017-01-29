@@ -115,6 +115,20 @@
 
 /* DEFAULT */
 
+.socialize-campanha {
+  margin: 0 auto;
+  display: block;
+  width: 80px;
+}
+
+.rs-twitter {
+  margin-left: 8px;
+}
+
+.socialize-campanha li a {
+  float: left;
+}
+
 .bt-ajudar:hover, .bt-ajudar:focus, .bt-ajudar:active {
   color: white !important;
 }
@@ -126,7 +140,51 @@
 */
 /******************** TYPOGRAPHY ********************/
 
+@media (max-width: 640px) {
+  #box-facebook {
+    width: 80%;
+  }
 
+  .client-logo {
+    float: left;
+  }
+    .client-logo li {
+        float: left;
+        width: 50%;
+        margin-left: 25% !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+      .client-logo li a {
+        float: left;
+        width: 100%;
+      }
+        .client-logo li a img {
+          float: left;
+          width: 100%;
+        }
+
+
+}
+
+@media (max-width: 480px) {
+
+  .heading-text-top {
+    font-size: 35px;
+  }
+  .img-desc {
+    font-size: 13px;
+    line-height: 1.2;
+  }
+    .img-desc p{
+      margin: 0;
+      margin-bottom: 3px;
+    }
+}
+
+.margin-bottom-0 {
+  margin-bottom: 15px !important;
+}
 
 body {
   color: #616161;
