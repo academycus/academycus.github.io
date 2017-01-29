@@ -118,11 +118,12 @@
 .socialize-campanha {
   margin: 0 auto;
   display: block;
-  width: 80px;
+  width: 121px;
 }
 
 .rs-twitter {
   margin-left: 8px;
+  margin-right: 8px;
 }
 
 .socialize-campanha li a {
