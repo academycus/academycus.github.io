@@ -74,3 +74,15 @@ function isEmail(email){
             })
         });
   }
+
+  function emBreve() {
+      sweetAlert("Calma, nosso app estará disponível em breve ;)", "", "warning");
+  }
+
+  function fecharMenu() {
+       var width = window.innerWidth;
+       if (width < 1200) {
+            $("#btMenu").trigger('click');
+       }
+      
+  }
